@@ -36,7 +36,7 @@ public class GameManager {
     }
 
     public void onDraw(Canvas c){
-        c.drawARGB(150, 0,0,0);
+        c.drawARGB(230, 0,0,0);
         for(Task t : this.mTaskList){
             t.onDraw(c);
         }
