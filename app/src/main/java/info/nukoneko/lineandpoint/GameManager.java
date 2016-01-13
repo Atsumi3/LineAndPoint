@@ -17,7 +17,7 @@ public class GameManager {
 
     GameManager(MainSurface surface){
         this.mParent = surface;
-        this.mTaskList.add(new FpsController(surface));
+        //this.mTaskList.add(new FpsController(surface));
         this.mTaskList.add(new ObjectController(surface));
     }
 

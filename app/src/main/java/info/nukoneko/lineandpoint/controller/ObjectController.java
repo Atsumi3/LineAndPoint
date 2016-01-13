@@ -13,16 +13,17 @@ import info.nukoneko.lineandpoint.Task;
  * Created by Telneko on 2015/02/02.
  */
 public class ObjectController extends Task {
-    private static final int BALL_NUM = 20;
-    private ArrayList<Circle> circleList = new ArrayList<>();
-    private final static float __SIZE = 10;
+    private final static int BALL_NUM = 10;
+    private final static float __SIZE = 5;
+    final public float speed = 0.4f;
+
+
+    private final ArrayList<Circle> circleList = new ArrayList<>();
     float phase, radius;
     int one = 7;
 
     public float MOUSE_X = 0;
     public float MOUSE_Y = 0;
-
-    public float speed = 0.2f;
 
     private Paint _line = new Paint();
 
@@ -33,6 +34,7 @@ public class ObjectController extends Task {
         super(holder);
 
         for(int i = 0; i < BALL_NUM; i++){
+            if (circleList.size() == BALL_NUM) break;
             circleList.add(new Circle(0,0,__SIZE));
         }
 

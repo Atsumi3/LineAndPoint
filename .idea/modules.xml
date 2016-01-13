@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Testsurface.iml" filepath="$PROJECT_DIR$/Testsurface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LineAndPoint.iml" filepath="$PROJECT_DIR$/LineAndPoint.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

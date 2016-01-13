@@ -38,6 +38,6 @@ public class FpsController extends Task {
     }
     @Override
     public void onDraw(Canvas c){
-        c.drawText(String.format("%.1f", mFps), 0, sFONT_SIZE-2, mPaint);
+        //c.drawText(String.format("%.1f", mFps), 0, sFONT_SIZE-2, mPaint);
     }
 }
