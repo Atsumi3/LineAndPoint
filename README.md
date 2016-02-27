@@ -5,5 +5,5 @@
  - Android 2.2 (API 8) ~ Android 6.0 (API 23)  
 
 ## 参考
-移植をするにあたり、こちらを参考にさせていただきました
+移植をするにあたり、こちらを参考にさせていただきました  
 http://dixq.net/Android/ Androidプログラミングの館
