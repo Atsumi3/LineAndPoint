@@ -1,9 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="info.nukoneko.lineandpoint">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="info.nukoneko.android.lineandpoint">
 
     <application android:allowBackup="true" android:label="@string/app_name"
-        android:icon="@drawable/ic_launcher" android:theme="@style/AppTheme">
-        <activity android:name="info.nukoneko.lineandpoint.MainActivity">
+        android:icon="@drawable/ic_launcher" android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

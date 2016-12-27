@@ -1,4 +1,4 @@
-package info.nukoneko.lineandpoint;
+package info.nukoneko.android.lineandpoint;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -6,9 +6,6 @@ import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
-/**
- * Created by Telneko on 2015/02/02.
- */
 public class MainSurface extends SurfaceView implements SurfaceHolder.Callback, Runnable {
     GameManager mGameManager = new GameManager(this);
     Thread mThread;

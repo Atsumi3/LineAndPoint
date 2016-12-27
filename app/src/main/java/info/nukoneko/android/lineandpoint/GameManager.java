@@ -1,16 +1,12 @@
-package info.nukoneko.lineandpoint;
+package info.nukoneko.android.lineandpoint;
 
 import android.graphics.Canvas;
 import android.view.MotionEvent;
 
 import java.util.LinkedList;
 
-import info.nukoneko.lineandpoint.controller.FpsController;
-import info.nukoneko.lineandpoint.controller.ObjectController;
+import info.nukoneko.android.lineandpoint.controller.ObjectController;
 
-/**
- * Created by Telneko on 2015/02/02.
- */
 public class GameManager {
     MainSurface mParent = null;
     private LinkedList<Task> mTaskList = new LinkedList<>();

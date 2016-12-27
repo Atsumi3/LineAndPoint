@@ -1,11 +1,8 @@
-package info.nukoneko.lineandpoint;
+package info.nukoneko.android.lineandpoint;
 
 import android.graphics.Canvas;
 import android.view.MotionEvent;
 
-/**
- * Created by Telneko on 2015/02/02.
- */
 public abstract class Task {
     public MainSurface holder;
 

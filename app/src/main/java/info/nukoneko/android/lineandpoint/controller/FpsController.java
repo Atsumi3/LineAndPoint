@@ -1,11 +1,11 @@
-package info.nukoneko.lineandpoint.controller;
+package info.nukoneko.android.lineandpoint.controller;
 
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 
-import info.nukoneko.lineandpoint.MainSurface;
-import info.nukoneko.lineandpoint.Task;
+import info.nukoneko.android.lineandpoint.MainSurface;
+import info.nukoneko.android.lineandpoint.Task;
 
 /**
  * Created by Telneko on 2015/02/02.
