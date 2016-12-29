@@ -12,6 +12,10 @@ android {
         targetSdkVersion 25
         versionCode 3
         versionName "1.0.2"
+
+        project.ext { appName = 'LineAndPoint' }
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
     lintOptions {
@@ -23,6 +27,13 @@ android {
     }
 
     buildTypes {
+        applicationVariants.all { variant ->
+            variant.outputs.each { output ->
+                def versionName = variant.versionName.replace('.', '_')
+                def apkName = "${appName}-${versionName}-${variant.versionCode}-${variant.buildType.name}.apk"
+                output.outputFile = new File(output.outputFile.parent, apkName)
+            }
+        }
         debug {
             minifyEnabled false
             proguardFiles 'proguard-rules.pro'
@@ -54,4 +65,10 @@ android {
 
 dependencies {
     compile 'com.android.support:appcompat-v7:25.1.0'
+
+    //********** Test
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    testCompile 'junit:junit:4.12'
 }
