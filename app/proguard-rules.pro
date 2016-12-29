@@ -37,6 +37,16 @@
     public <init>(android.content.Context, android.util.AttributeSet, int);
     public void set*(...);
 }
+
+-keep class * extends android.webkit.WebViewClient
+-keepclassmembers class * extends android.webkit.WebViewClient {
+    <methods>;
+}
+-assumenosideeffects class android.util.Log {
+    <methods>;
+}
+-keepattributes Signature
+
 -keep public class **.R
 
 -dontwarn java.**
