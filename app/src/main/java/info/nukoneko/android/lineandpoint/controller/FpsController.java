@@ -7,9 +7,6 @@ import android.graphics.Paint;
 import info.nukoneko.android.lineandpoint.MainSurface;
 import info.nukoneko.android.lineandpoint.Task;
 
-/**
- * Created by Telneko on 2015/02/02.
- */
 public class FpsController extends Task {
     private long mStartTime = 0;
     private int mCnt = 0;

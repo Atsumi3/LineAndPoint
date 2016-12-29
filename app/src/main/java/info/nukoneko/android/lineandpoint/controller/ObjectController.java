@@ -9,9 +9,6 @@ import java.util.ArrayList;
 import info.nukoneko.android.lineandpoint.MainSurface;
 import info.nukoneko.android.lineandpoint.Task;
 
-/**
- * Created by Telneko on 2015/02/02.
- */
 public class ObjectController extends Task {
     private final static int BALL_NUM = 10;
     private final static float __SIZE = 5;
