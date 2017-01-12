@@ -10,7 +10,7 @@ import info.nukoneko.android.lib.nkanimation.NKAnimationBaseController;
 
 @SuppressWarnings("FieldCanBeLocal")
 public class ObjectController extends NKAnimationBaseController {
-    private final static int BALL_NUM = 10;
+    private final static int BALL_NUM = 16;
     private final static float __SIZE = 5;
     private final float speed = 0.4f;
 

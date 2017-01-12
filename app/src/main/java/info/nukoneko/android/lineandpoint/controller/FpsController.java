@@ -38,6 +38,6 @@ public class FpsController extends NKAnimationBaseController {
 
     @Override
     public void onDraw(Canvas c) {
-        c.drawText(String.format(Locale.getDefault(), "%.1f", mFps), 0, sFONT_SIZE - 2, mPaint);
+        c.drawText(String.format(Locale.getDefault(), "%.1f FPS", mFps), 0, sFONT_SIZE - 2, mPaint);
     }
 }
